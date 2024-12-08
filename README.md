@@ -19,7 +19,7 @@ Efficient point cloud processing often requires downsampling while preserving ke
 
 Below is an example of grid sampling across two levels, where the grid size increases by a factor of 2. Points are sampled to preserve meaningful features, with a focus on class-aware retention.
 
-![Grid Sampling Visualization](![678CCDAF-8604-4BA5-BD43-D90F3E419F1F](https://github.com/user-attachments/assets/825336e5-eb34-4c0d-9647-757a6e195cc5)
+![Grid Sampling Visualization](678CCDAF-8604-4BA5-BD43-D90F3E419F1F.jpeg)
  )
 
 ---
