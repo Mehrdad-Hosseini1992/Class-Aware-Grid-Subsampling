@@ -34,7 +34,7 @@ Below is an example of grid sampling across two levels, where the grid size incr
 
 2. Install dependencies (if required):
     ```bash
-    pip install -r requirements.txt
+    pip install numpy
     ```
 
 ---
