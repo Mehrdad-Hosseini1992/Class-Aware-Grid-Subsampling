@@ -43,7 +43,7 @@ class GridSample(object):
         min_coord = min_coord * np.array(self.grid_size)
         key = self.hash(grid_coord)
 
-         # --------------------------------------------------------------------- #
+        # --------------------------------------------------------------------- #
         # Identify and separate indices of classes to be excluded from sampling
         no_sample_classes = [3, 6, 7, 8, 10, 11]  # Example: Classes 0 and 4 should not be sampled
         no_sample_mask = np.isin(data_dict["segment"], no_sample_classes)
@@ -59,11 +59,6 @@ class GridSample(object):
 
 
         if self.mode == "train":  # train mode
-            # idx_select = (
-            #     np.cumsum(np.insert(count, 0, 0)[0:-1])
-            #     + np.random.randint(0, count.max(), count.size) % count
-            # )
-            # idx_unique = idx_sort[idx_select]
 
             idx_select = (
                 np.cumsum(np.insert(count, 0, 0)[0:-1])
