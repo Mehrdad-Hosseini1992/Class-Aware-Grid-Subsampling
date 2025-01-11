@@ -28,7 +28,7 @@ Below is an example of grid sampling across two levels, where the grid size incr
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/<your-username>/class-aware-grid-sampling.git
+    git clone https://github.com/Mehrdad-Hosseini1992/class-aware-grid-sampling.git
     cd class-aware-grid-sampling
     ```
 
